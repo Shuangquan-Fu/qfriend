@@ -6,13 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="qfriend" />
+        <module name="qfriend-dubbo-service" />
+        <module name="qfriend-dubbo-interface" />
+        <module name="qfriend-server" />
+        <module name="qfriend-sso" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="qfriend" options="-parameters" />
+      <module name="qfriend" options="" />
+      <module name="qfriend-dubbo" options="" />
+      <module name="qfriend-dubbo-interface" options="-parameters" />
+      <module name="qfriend-dubbo-service" options="-parameters" />
+      <module name="qfriend-server" options="-parameters" />
+      <module name="qfriend-sso" options="-parameters" />
     </option>
   </component>
 </project>
