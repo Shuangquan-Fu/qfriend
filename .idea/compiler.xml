@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="qfriend-dubbo-service" />
         <module name="qfriend-dubbo-interface" />
-        <module name="qfriend-server" />
         <module name="qfriend-sso" />
+        <module name="qfriend-server" />
       </profile>
     </annotationProcessing>
   </component>
